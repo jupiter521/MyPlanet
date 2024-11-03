@@ -1,0 +1,95 @@
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .topBar {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #4A148C;
+    color: #fff;
+  }
+  
+  .siteIcon img {
+    height: 80px;
+  }
+  
+  .dashboardTitle {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .userSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    position: relative; 
+    margin-left:10px;
+    margin-top:40px;
+  }
+  
+  .logoutDropdown {
+    position: absolute;
+    top: 33px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+  
+  .avatar:hover .logoutDropdown {
+    display: block;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .clientsSection {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .clientsTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .clientsTable th,
+  .clientsTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .newButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #6200EA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .detailPanel,
+  .newClientPanel {
+    width: 300px;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .closeButton {
+    background-color: #E53935;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
